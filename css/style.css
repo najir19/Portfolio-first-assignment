@@ -1,3 +1,242 @@
 /* import Bebas Neue Font & Roboto Font */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* Global css */
+body {
+  font-family: "Roboto", sans-serif;
+}
+section {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+/* header part */
+.header-area {
+  height: 10px;
+}
+.header-left {
+  float: left;
+  width: 70%;
+}
+.header-right {
+  float: left;
+  width: 30%;
+}
+.hide {
+  visibility: hidden;
+}
+
+.header-area ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header-area ul li a {
+  text-decoration: none;
+  color: #3c3c3c;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Intro section */
+.intro .left {
+  width: 50%;
+  float: left;
+}
+.intro .left h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 80px;
+  line-height: 100%;
+  margin-bottom: 30px;
+  color: #363958;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.intro .left h1 span {
+  display: block;
+  color: #ff8367;
+}
+.intro .left p {
+  color: #3e3e3e;
+  font-size: 16px;
+  line-height: 24px;
+}
+.intro .right {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+.intro .right img {
+  width: 70%;
+}
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(#f46060, #ff8063);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* About section */
+.about .right {
+  width: 50%;
+  float: right;
+}
+.about .left img {
+  width: 70%;
+}
+
+.about .right h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 48px;
+  line-height: 100%;
+  margin-bottom: 30px;
+  color: #363958;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.about .right h1 span {
+  display: block;
+  color: #ff8367;
+}
+.about .right p {
+  color: #3e3e3e;
+  font-size: 16px;
+  line-height: 24px;
+}
+.about .left {
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+/* service section */
+.service {
+  padding: 50px 0;
+  text-align: center;
+  margin-left: 75px;
+}
+.service .single-service:hover {
+  background: transparent;
+  border: 5px solid #ff8063;
+  color: #000;
+}
+.service h1 {
+  color: #ff8063;
+  font-size: 48px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.single-service {
+  background-color: #ff8063;
+  padding: 26px;
+  width: 25%;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: #fff;
+  height: 230px;
+  transition: 0.3s;
+}
+.single-service img {
+  width: 15%;
+}
+/* project */
+.project {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  display: inline-block;
+}
+.project h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 48px;
+  line-height: 100%;
+  margin-bottom: 30px;
+  color: #363958;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+.project h1 span {
+  padding-right: 10px;
+  color: #ff8367;
+}
+.project-archive .single-project {
+  width: 29%;
+  float: left;
+  background-color: rgb(255, 255, 255);
+}
+.project-archive .single-project img {
+  width: 93%;
+  text-align: center;
+  margin-left: 12px;
+}
+.project-archive .single-project {
+  width: 30%;
+  padding: 25px 0;
+  float: left;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+  border-radius: 35px;
+  box-shadow: 2px 2px 20px 0px #ccc;
+}
+.project-archive .single-project h4 {
+  font-size: 24px;
+  color: #363958;
+  margin-left: 15px;
+}
+.project-archive .single-project p {
+  font-size: 16px;
+  color: #6c6c6c;
+  margin-left: 15px;
+}
+
+/* Work Inquery */
+.inquiry {
+}
+.inner-inquiry {
+  background-image: url("../shapes/Group_33094_1.png");
+  height: 180px;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+.inquiry h1 {
+  text-align: left;
+  float: left;
+  margin-left: 8em;
+  margin-top: 1em;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 75px;
+}
+.inquiry .btn {
+  margin-left: 13em;
+  margin-top: 5em;
+  font-size: 14px;
+}
+
+/* Social */
+.social {
+  padding-top: 50px;
+  text-align: center;
+}
+.social p {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.social h3 {
+  font-size: 24px;
+}
+.social .social-icon img {
+  width: 3%;
+}
